@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+#darkMode button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-size: 17px;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+
+#mainBody{
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    margin-top: 50px;
+    height: 560px;
+    width: 290px;
+    border-radius: 30px;
+    border: 10px solid black;
+    border-bottom: 50px solid black;
+}
+
+#innerBody{
+    /* background-color: rgb(15, 15, 15); */
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 270px;
+    border-radius: 20px;
+    /* border: 10px solid black; */
+}
+
+#notch{
+    display: flex;
+    height: 17px;
+    width: 130px;
+    background-color: black;
+    border-radius: 0px 0px 18px 18px;
+    margin: auto;
+}
+
+#camera{
+    margin: auto;
+    margin-top: -3px;
+    margin-left: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+    background-color: rgb(75, 75, 75);
+}
+
+#lens{
+    margin: auto;
+    margin-top: 3px;
+    background-color: rgb(37, 0, 54);
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+}
+
+#speaker{
+    margin: auto;
+    margin-top: -1px;
+    height: 7px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: rgb(54, 54, 54);
+}
+
+#value{
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin-left: 5px;
+    /* color: white; */
+
+}
+
+#calButtons{
+    margin-top: 0px;
+    height: 350px;
+    width: 270px;
+    /* background-color: rgb(19, 19, 19); */
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    
+}
+
+.row{
+    display: flex;
+    height: 67px;
+    width: 270px;
+    /* background-color: rgb(20, 20, 20); */
+    background-color: rgb(245, 245, 245);
+}
+
+.button{
+    /* color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(49, 49, 49); */
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    box-shadow: 5px 5px 10px rgb(221, 221, 221);
+    transition: all 0.4s ease;
+}
+
+.button:hover{
+    background-color: rgb(253, 80, 16);
+    color: white;
+}
+
+#zero{
+    width: 100px;
+    border-radius: 30px;
+}
+
+#uniqueButton{
+    color: rgb(255, 94, 0);
+}
+#uniqueButton:hover{
+    color: white;
+}
+
+#equal{
+    color: white;
+    background-color: orangered;
+}
+#equal:hover{
+    color: orangered;
+    background-color: white;
+}
+
+
+
+
+  
